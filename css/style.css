@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "headingFont";
+  src: url(../Fonts/MandatoryPlaything-nRRd0.ttf);
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -1;
+}
+
+.body {
+  position: relative;
+  background-color: black;
+}
+
+section {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  font-family: "headingFont";
+  color: #38ffff;
+  text-align: center;
+  font-size: 100px;
+}
+
+nav {
+  background-color: rgb(24 86 98 / 60%);
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+nav .logo img {
+  height: 90px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-left: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  margin: 20px;
+}
+
+section {
+  min-height: 100vh;
+}
+
+section p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.button {
+  background: radial-gradient(rgb(24 86 98 / 0%), rgb(24 86 98));
+  width: fit-content;
+  border: 1px solid #00ffff;
+  padding: 5px 180px;
+  border-radius: 3px;
+  color: #00ffff;
+  font-size: 30px;
+  margin: 20px 0 0;
+}
+
+.button:hover {
+  background: radial-gradient(rgb(24 86 98 / 100%), rgb(24 86 98 / 0%));
+  color: #2bffff;
+}
+
+.card-custom p {
+  font-weight: 300;
+}
+
+.card-custom img {
+  width: 80%;
+}
+
+.card-custom .content {
+  height: 100px;
+}
+
+.card-custom .footer {
+  margin-top: 50px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a:hover {
+  color: #00ffff;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    font-size: 15px;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .button {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .card-custom .footer {
+    margin-top: -20px;
+  }
+
+  .card-custom {
+    margin-bottom: 40px;
+  }
+
+  .title-custom {
+    font-size: 40px;
+  }
+
+  #TOKENOMICS {
+    padding: 10px !important;
+  }
+
+  .chart {
+    margin: 50px 0;
+  }
+
+  .menu {
+    justify-content: center !important;
+    margin-top: 10px;
+  }
+}
