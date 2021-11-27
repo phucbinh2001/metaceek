@@ -114,6 +114,11 @@ a:hover {
   font-weight: 700;
 }
 
+.table-custom > .row {
+  border-top: 1px solid #38ffff;
+  border-bottom: 1px solid #38ffff;
+}
+
 .contact .title {
   margin-bottom: 50px;
 }
