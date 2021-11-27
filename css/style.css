@@ -213,4 +213,8 @@ footer {
   .social a {
     margin: 10px;
   }
+
+  #member p {
+    font-size: 14px !important;
+  }
 }
