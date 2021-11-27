@@ -40,6 +40,11 @@ nav {
   backdrop-filter: blur(20px);
 }
 
+nav .button {
+  margin-left: 5px;
+  padding: 0px 10px;
+}
+
 nav .logo img {
   height: 70px;
 }
